@@ -1,0 +1,12 @@
+$types: bug, fairy, fire, ghost, normal, psychic, steel, dark, electric, fighting, grass, ice, poison, rock, water, dragon, ground, flying
+$type-colors: (bug: #A0B531, fairy: #EB8AE8, fire: #FF3922, ghost: #635FB3, normal: #A0A18F, psychic: #FF468C, steel: #A0A0B2, dark: #6C4B3C, electric: #FFC73D, fighting: #B24A3D, grass: #6CC854, ice: #5CC4FD, poison: #A0478C, rock: #B2A160, water: #2E8BFB, dragon: #6C54E6, ground: #D8B453, flying: #7D8AFB)
+
+@each $type, $color in $type-colors
+  .#{$type}
+    background-color: $color
+
+$pokemon-red: #E21420
+$pokemon-yellow-highlight: #FFC72A
+$pokemon-yellow-shadow: #C09821
+$pokemon-blue-highlight: #31509C
+$pokemon-blue-shadow: #172252
